@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.scss';
 import { useState, useEffect } from 'react';
+import Jumbotron from './jumbotron';
+import Navigation from './navbar';
 
 const App = () => {
   const name = 'John';
@@ -16,19 +18,19 @@ const App = () => {
     )
   }
   
-  const [counter, setCounter] = useState(0);
+  // useState Example
+  // const [counter, setCounter] = useState(0);
   
-  
-  useEffect(() => {
-    alert("You've changed the counter to " + counter);
-  }, [counter]);
-  
+  // useEffect Example
+  // useEffect(() => {
+  //   alert("You've changed the counter to " + counter);
+  // }, [counter]);
+
   return (
-    <div className="App">
-       <button onClick={() => setCounter((beforeCount) => beforeCount - 1)}> - </button>
-       <h1> {counter} </h1>
-       <button onClick={() => setCounter((beforeCount) => beforeCount + 1)}> + </button>
-    </div>
+    <>
+    <Navigation />
+    <Jumbotron />
+    </>
   );
 }
 
