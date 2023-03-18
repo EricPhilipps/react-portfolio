@@ -1,10 +1,8 @@
-import logo from './logo.svg';
 import './App.scss';
 import { useState, useEffect } from 'react';
-import Jumbotron from './components/jumbotron';
-import Navigation from './components/navbar';
 import React from 'react';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Navigation from './components/navbar';
 import Home from './pages/home';
 import About from './pages/about';
 import Work from './pages/work';
@@ -36,6 +34,7 @@ const App = () => {
     // <Jumbotron />
     // </>
     <BrowserRouter>
+      <Navigation />
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/about" element={<About/>} />

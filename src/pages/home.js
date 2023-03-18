@@ -1,10 +1,8 @@
-import Navigation from "../components/navbar";
-
+import HelloCard from "../components/helloCard";
 const Home = () => {
     return(
         <>
-            <Navigation />
-            <h1> This is my home page </h1>
+           <HelloCard />
         </>
     )
 }

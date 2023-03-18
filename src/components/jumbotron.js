@@ -1,20 +1,22 @@
 import '../App.scss';
-import {useState, useEffect} from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
 
 const Jumbotron = () => {
     return (
-        <Card className="text-center">
+        <Card className="card text-center">
             <Card.Body>
                 <Card.Title>
-                    Hello,  my name is Eric and I am a Front/Back End Developer in Minneapolis, MN
+                    A Little Bit More About Me
                 </Card.Title>
                 <Card.Text>
-                    Experience: JavaScript, CSS, HTML, Java, C++, C
+                    I am from Rochester, Minnesota looking for my first opportunity as a developer. I 
+                    have a fairly wide range of skills that I have learned through some undergraduate 
+                    classes at the University of Minnesota Twin Cities and also from the University's 
+                    Full Stack Bootcamp that I graduated from in 2022. Since the bootcamp I have trying 
+                    to learn new technologies and also keep the knowledge that I gained from it.
                 </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
             </Card.Body>
         </Card>
     )
