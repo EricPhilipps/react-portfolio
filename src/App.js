@@ -29,17 +29,13 @@ const App = () => {
   // }, [counter]);
 
   return (
-    // <>
-    // <Navigation />
-    // <Jumbotron />
-    // </>
     <BrowserRouter>
-      <Navigation />
-      <Routes>
-        <Route path="/" element={<Home/>} />
-        <Route path="/about" element={<About/>} />
-        <Route path="/work" element={<Work />} />
-      </Routes>
+        <Navigation />
+        <Routes>
+          <Route path="/" element={<Home/>} />
+          <Route path="/about" element={<About/>} />
+          <Route path="/work" element={<Work />} />
+        </Routes>
     </BrowserRouter>
   );
 }

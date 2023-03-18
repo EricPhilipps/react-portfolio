@@ -5,12 +5,12 @@ import Button from 'react-bootstrap/Button';
 
 const Navigation = () => {
     return (
-        <Navbar bg="dark" variant="dark">
+        <Navbar className="nav">
         <Container>
           <Navbar.Brand href="#home">
-            <Button href="/" variant="primary">Home</Button> {' '}
-            <Button href="/about" variant="primary">About Me</Button> {' '}
-            <Button href="/work" variant="primary">See My Work!</Button> {' '}
+            <Button className= "btn" href="/" variant="primary">Home</Button> {' '}
+            <Button className= "btn" href="/about" variant="primary">About Me</Button> {' '}
+            <Button className= "btn" href="/work" variant="primary">See My Work!</Button> {' '}
           </Navbar.Brand>
             <Navbar.Text> 
 
