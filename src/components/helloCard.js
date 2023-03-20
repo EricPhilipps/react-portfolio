@@ -18,7 +18,7 @@ const HelloCard = () => {
                     snowboarding, canoeing, or backpacking! But anyways, welcome to my portfolio and feel free 
                     to have a look around!
                 </Card.Text>
-                <Button className="btn" href="/about"variant="primary">Learn More About Me</Button>
+                <Button className="btn" href="/about">Learn More About Me</Button>
             </Card.Body>
         </Card>
     )
