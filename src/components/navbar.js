@@ -6,6 +6,9 @@ import Button from 'react-bootstrap/Button';
 const Navigation = () => {
     return (
         <Navbar className="nav">
+          <Navbar.Text className="nav-text">
+            Eric Philipps
+          </Navbar.Text>
         <Container>
           <Navbar.Brand href="#home">
             <Button className= "btn" href="/" variant="primary">Home</Button> {' '}
