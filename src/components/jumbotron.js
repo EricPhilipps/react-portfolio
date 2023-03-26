@@ -17,6 +17,7 @@ const Jumbotron = () => {
                     Full Stack Bootcamp that I graduated from in 2022. Since the bootcamp I have trying 
                     to learn new technologies and also keep the knowledge that I gained from it.
                 </Card.Text>
+                <Button className= "btn" href="/work" variant="primary">See My Work!</Button>
             </Card.Body>
         </Card>
     )

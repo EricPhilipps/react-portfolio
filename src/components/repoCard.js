@@ -2,9 +2,11 @@ import '../App.scss';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 
+
+
 const RepoCard = (props) => {
     return (
-        <Card className="repo-card card text-center">
+        <Card className="repo-card text-center">
             <Card.Body>
                 <Card.Title>
                     {props.title}
